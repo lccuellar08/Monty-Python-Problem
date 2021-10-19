@@ -4,7 +4,7 @@ This repository contains a simple script that runs a simulation of the [Monty Py
 
 >Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1, and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to pick door No. 2?" Is it to your advantage to switch your choice?
 
-Statistically, one must always choose to switch to the other door, as this will yield a higher probability of winning the car (~66.66%). The script in this repo runs the exact scenario stated in the problem a large number of times and calculates the total Win Rate.
+Statistically, one must always choose to switch to the other door, as this will yield a higher probability of winning the car (~66.66%). The script simulates this problem a large number of times and calculates the total Win Rate.
 
 In addition, the win rate increases and eventually converges close to 100% when the total number of doors increases. For example, if there are 10 doors (9 goats, 1 car), after the contestant choses their door, the host will open 8 doors revealing 8 goats, then the contestant has the opportunity to switch their door (raising their win probability to ~90%).
 
